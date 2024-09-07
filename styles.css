@@ -1,0 +1,80 @@
+body{
+  background-color: rgb(116, 154, 167);
+  /*background-color:hsl(0, 0%, 96%);*/
+  margin: 0;
+  padding: 50px;
+  font-size: 20px;
+  font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+  
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  /*background-color: #eee;*/
+  background-color: rgb(192, 214, 220);
+  padding: 20px;
+  border-radius: 50px;
+  
+}
+/*input{
+  display: block;
+    width: 50%;
+    height: 2.375rem;
+    padding: 0.120rem 0.20rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    align;
+    
+*/
+form{
+  
+  width: 600px;
+  height: auto;
+  margin-left: 145px;
+
+}
+#name,#email,#number,#text{
+  direction: none;
+  height: 25px;
+  border: 1px solid white;
+  margin: 10px;
+  display: block;
+  width:80%;
+  border-radius: 8px;
+}
+h1,h5{
+  text-align: center;
+  
+}
+#dropdown{
+  
+  margin-bottom: 10px;
+}
+textarea{
+  width: 80%;
+  height: 150px;
+  border-radius: 7px;
+  border: 1px solid white;
+}
+
+label,input{
+  padding-left: 10px;
+  
+  
+}
+#select{
+  width: 100px;
+}
+input, select{
+  margin-left: 10px;
+}
+input{
+  border-radi
+}
