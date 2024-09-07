@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <main>
+     <h1 id="title">Survey Form</h1>
+    <h5 id="description">
+Please submit you form
+    </h5>
+    <form id="survey-form">
+      <label>Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required="name">
+      <label>Email</label>
+      <input id="email" type="email" placeholder="Enter your email" required="email">
+      <label>Age</label>
+      <input id="number" type="number" max="100" min="18" placeholder="type your age">
+      <label>Phone number</label>
+      <input type="text" placeholder="Phone number" id="number" required="Phone" placeholder="type your age">
+      <br>
+      <label id="job">What is your job</label><br>
+      <select id="dropdown">
+        <option id="select">Select an option</option>
+        <option>Doctor</option>
+        <option>Engeenier</option>
+        <option>Teacher</option>
+        <option>Pilot</option>
+      </select>
+     <br><br>
+
+
+     <label id="subject">What is your favourite subject</label><br>
+      
+      <input type="checkbox" value="Math">
+      <label>Math</label><br>
+      
+      <input type="checkbox" value="physic">
+      <label>Phisic</label><br>
+      
+      <input type="checkbox" value="english">
+      <label>english</label><br>
+      
+      <input type="checkbox" value="art">
+      <label>art</label><br><br>
+
+
+      <label>Status</label><br>
+      <input type="radio" name="status" value="single">
+      <label>Single</label><br>
+      <input type="radio" name="status" value="married">
+      <label>Married</label><br><br><br>
+
+      <textarea name="textarea" id="">Write your comment</textarea><br>
+<br>
+      <input type="submit" id="submit" placeholder="Submit">
+      
+      
+
+    </form>
+  </main>
+</html>
+
